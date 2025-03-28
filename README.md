@@ -1,9 +1,10 @@
-# Churn Prediction Using Machine Learning
+# 📊 Churn Prediction Using Machine Learning
 
-## Table of Contents
+## 🧩 Table of Contents
 - [Problem Statement](#problem-statement)  
 - [Project Objective](#project-objective)  
 - [Approach](#approach)  
+- [Visualizations](#visualizations)
 - [Models Used](#models-used)  
 - [Key Results](#key-results)  
 - [Data Dictionary](#data-dictionary)  
@@ -11,19 +12,19 @@
 
 ---
 
-## Problem Statement
+## 📌 Problem Statement
 
 Customer churn significantly affects business revenue and growth. Predicting churn helps companies retain valuable users through targeted strategies. This project focuses on predicting customer churn based on user behavior and transaction patterns.
 
 ---
 
-## Project Objective
+## 🎯 Project Objective
 
 To build a machine learning model that accurately predicts whether a customer is likely to churn using historical user data.
 
 ---
 
-## Approach
+## 🔍 Approach
 
 1. **Data Cleaning & Preprocessing**  
    - Handled missing values  
@@ -42,7 +43,37 @@ To build a machine learning model that accurately predicts whether a customer is
 
 ---
 
-## Models Used
+## 📊 Visualizations
+
+### 🔸 Correlation Matrix
+Exploring relationships between numerical features.
+
+![Correlation Matrix](images/correlation_matrix.png)
+
+---
+
+### 🔸 Feature Distributions
+Visualizing the distribution of key numeric features after preprocessing.
+
+![Feature Distributions](images/feature_distributions.png)
+
+---
+
+### 🔸 Confusion Matrix – Gradient Boosting
+Best-performing model’s confusion matrix on the test set.
+
+![Confusion Matrix - Gradient Boosting](images/confusion_matrix_gb.png)
+
+---
+
+### 🔸 KNN Elbow Curve
+Used to select the optimal `k` value for KNN.
+
+![KNN Elbow Curve](images/knn_elbow_curve.png)
+
+---
+
+## 🤖 Models Used
 
 - **Logistic Regression (with L1 and L2 regularization)**  
 - **K-Nearest Neighbors (tuned with elbow method)**  
@@ -50,7 +81,7 @@ To build a machine learning model that accurately predicts whether a customer is
 
 ---
 
-## Key Results
+## ✅ Key Results
 
 - **Gradient Boosting** achieved the best performance overall  
 - Performance metrics include:  
@@ -60,7 +91,7 @@ To build a machine learning model that accurately predicts whether a customer is
 
 ---
 
-## Data Dictionary
+## 📘 Data Dictionary
 
 | Feature | Description |
 |---------|-------------|
@@ -76,7 +107,7 @@ To build a machine learning model that accurately predicts whether a customer is
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Python**  
 - **Pandas**, **NumPy** – data processing  
